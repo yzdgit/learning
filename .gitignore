@@ -1,3 +1,4 @@
-/target
-.DS_Store
+./yew-app/target
+./yew-app/dist
 *.swp
+.DS_Store
