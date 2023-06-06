@@ -25,7 +25,6 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
 }
 
 .topdiv {
@@ -36,7 +35,7 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
+  color: white;
 }
 
 .profile_name .contact_info {
@@ -104,10 +103,10 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
+  width: 250px;
   height: fit-content;
   vertical-align: middle;
-  margin: 5px;
+  margin: 10px;
 }
 
 /* Skills */
