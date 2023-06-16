@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'dbHelper/mongodb.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await MongoDatabase.connect();
   runApp(
     const MaterialApp(
       title: 'Menu',
